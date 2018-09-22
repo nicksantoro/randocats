@@ -1,0 +1,17 @@
+body {
+    background-color: #fff;
+    -webkit-animation: random 20s infinite;
+    animation: random 20s infinite;
+    font-family: 'Montserrat', sans-serif;
+}
+@keyframes  random {
+   15% { background-color: pink; } 
+   30% { background-color: lemonchiffon; } 
+   45% { background-color: lightblue; } 
+   60% { background-color: lavender; }
+   75% { background-color: coral; }  
+}
+
+h1 {
+    font-weight: bold;
+}
